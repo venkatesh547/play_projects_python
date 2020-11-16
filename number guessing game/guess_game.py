@@ -21,6 +21,29 @@ while not guessed:
 
     elif int(ans) < number:
         print('The number is greater than what you guessed. ')
+        
+        
+# 2nd Method:
+
+from random import randint
+
+ans = randint(1, 10)
+
+while True:
+    try:
+
+        guess = int(input('Guess a number from 1 to 10 :  '))
+        if 0 < guess < 11:
+            if guess == ans:
+                print('You are Awesome!')
+                break
+            else:
+                print('Try again!')
+        else:
+            print('number should be 1 to 10')
+    except ValueError:
+        print('Please enter a number!')
+        continue
 
 
 
