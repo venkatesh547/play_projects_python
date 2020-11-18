@@ -25,3 +25,20 @@ dictionary = defaultdict(lambda: 'does not exist', {'a': 1, 'b': 2})
 # which avoids error if the object which we calling is not in dictionary
 
 print(dictionary['g']) 
+
+
+#########################
+from datetime import datetime, timedelta, date
+# below line is to print today's date
+print(datetime.today())
+#(or)
+print(datetime.now())
+
+
+# below line is to get both start date and end date to execute the process
+current_date = datetime.today()
+start_date = current_date + timedelta(days=-2)
+end_date = current_date
+
+print('Start date : ', start_date)
+print('End date : ', end_date)
