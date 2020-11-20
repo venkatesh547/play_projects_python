@@ -42,3 +42,16 @@ end_date = current_date
 
 print('Start date : ', start_date)
 print('End date : ', end_date)
+
+#######################
+# to print variable in reverse
+
+a = 'Testing the Reverse method'
+b = 'SingleWord'
+
+print(a[::-1])
+print(b[::-1])
+
+#############################
+
+
