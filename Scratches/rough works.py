@@ -7,3 +7,14 @@ height = int(input('Enter the height of Rectnagle: '))
 area = width * height
 
 print(f'area is {area} sqft')
+######################################################################################
+
+# to print variable in reverse
+
+a = 'Testing the Reverse method'
+b = 'SingleWord'
+
+print(a[::-1])
+print(b[::-1])
+
+######################################################################################
