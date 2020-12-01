@@ -1,0 +1,4 @@
+This below code translate the text from test.txt file to tamil language. 
+if we want we can translate to different language by modifying 'ta' to required language code.
+
+make sure to replace the file 'test.txt' to your input file.
