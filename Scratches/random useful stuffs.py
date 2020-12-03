@@ -33,7 +33,7 @@ from datetime import datetime, timedelta, date
 print(datetime.today())
 #(or)
 print(datetime.now())
-
+############
 
 # below line is to get both start date and end date to execute the process
 current_date = datetime.today()
@@ -53,5 +53,18 @@ print(a[::-1])
 print(b[::-1])
 
 #############################
+# email validation:
+import re
 
+pattern = re.compile(r"(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)")
 
+u_email = input("Please Enter your email address: ")
+
+email_add = pattern.search(u_email)
+
+# print(email_add)
+
+if not email_add:
+    print('Please try again with full e-mail address')
+else:
+    print('Thank you!')
