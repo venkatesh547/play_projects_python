@@ -1,0 +1,9 @@
+It is a little project, which converts JPG image to PNG image.
+
+Image_folder is the path , 
+Output_folder is the directory or destination folder
+
+Make sure to type both imagefolder name and destination folder name during executing from terminal
+
+Eg:  ~ python JPGtoPNG.py JPG_folder/ PNG_folder
+
