@@ -1,0 +1,3 @@
+This % gain calculator will help us to calculate the gain % in next target. 
+
+By comparing different stocks gain percentage, we can buy stocks which give more percentage of gain.
