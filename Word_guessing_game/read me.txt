@@ -1,0 +1,4 @@
+About:
+Its a word guessing game which pull random word from predefined list of words
+We have 10 attempts to guess the word.(we can modify number of attempts in code)
+source: geek for geeks
