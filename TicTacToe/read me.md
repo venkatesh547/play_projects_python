@@ -1,0 +1,2 @@
+- TicTacToe game with GUI usin Pygame library
+- added X and O images here, to sync with codes
