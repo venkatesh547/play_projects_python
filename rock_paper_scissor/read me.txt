@@ -1,0 +1,5 @@
+This is a rock paper scissor game python code, 
+we got this and practicoing from : https://realpython.com/python-rock-paper-scissors/
+ 
+ as of now, im updating some basic code, 
+ have to look into, how to implement functions, modules in this code part
