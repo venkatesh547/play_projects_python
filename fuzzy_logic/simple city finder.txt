@@ -1,0 +1,2 @@
+here, I created a list with few city names
+and used fuzzywuzzy module 
