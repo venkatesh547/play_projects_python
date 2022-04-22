@@ -79,4 +79,15 @@ def sum_func(*args):
 
 print(sum_func(1,2,3))
 
+## *kwargs
+
+def sum_func(*args, **kwargs):
+    total = 0
+    for item in kwargs.values():  # grabbing the values 10, 15 and do sum 
+        total += item
+    return sum(args) + total
+
+
+print(sum_func(1, 2, 3, 4, num1=10, num2=15))
+
 ##################################
