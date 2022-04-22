@@ -69,3 +69,14 @@ if not email_add:
 else:
     print('Thank you!')
 #############################
+
+# *args and **kwargs
+# *args accept multiple inputs in a function
+
+def sum_func(*args):
+    print(args)
+    return sum(args)
+
+print(sum_func(1,2,3))
+
+##################################
