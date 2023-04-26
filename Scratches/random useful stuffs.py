@@ -36,7 +36,7 @@ print(datetime.now())
 ############
 
 # below line is to get both start date and end date to execute the process
-current_date = datetime.today()
+current_date = datetime.today().date()
 start_date = current_date + timedelta(days=-2)
 end_date = current_date
 
